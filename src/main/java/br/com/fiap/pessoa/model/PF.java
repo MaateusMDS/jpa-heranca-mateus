@@ -9,9 +9,9 @@ import java.time.LocalDate;
 
 @Data
 @Entity
-@DiscriminatorValue("PF")
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "TB_PF")
 public class PF extends Pessoa {
 
     @Column(name = "NR_CPF")
