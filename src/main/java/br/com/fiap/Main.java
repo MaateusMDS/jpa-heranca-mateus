@@ -17,7 +17,7 @@ public class Main {
         PF mateus = new PF();
         mateus.setCPF("123123123");
         mateus.setRG("1231232");
-        mateus.setNome("Mateus Mendes dos Santos");
+        mateus.setNome("Mateus Mendes");
         mateus.setNascimento(LocalDate.of(2004, 7, 24));
 
         entityManager.getTransaction().begin();
